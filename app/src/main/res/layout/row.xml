@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="20dp"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:src="@drawable/course"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imgMonhoc"/>
+        <TextView
+            android:layout_gravity="center"
+            android:textColor="#F40A0A"
+            android:textSize="20dp"
+            android:id="@+id/tvTrangThi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dang Ky"/>
+    </LinearLayout>
+    <LinearLayout
+        android:paddingLeft="20dp"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3B18FFFF">
+
+        <TextView
+            android:textColor="#03317E"
+            android:textSize="30dp"
+            android:id="@+id/tvMonhoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mon Hoc"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lop Hoc  "/>
+            <TextView
+                android:textSize="20dp"
+                android:id="@+id/tvlophoc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lop Hoc"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buoi Hoc        "/><TextView
+            android:id="@+id/tvlichHoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lich Hoc"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ngay Thi         "/>
+            <TextView
+                android:id="@+id/tvNgayThi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ngay Thi"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
